@@ -1,3 +1,0 @@
-[2015-02-23 01:20:78.47] INFO 2015-02-23 01:20:78.47:SQL :[ACTIVE] ExecuteThread: '3' for queue: 'server' : Home
-[2015-02-23 01:20:78.61] TIMER 2015-02-23 01:20:78,61:SQL :[ACTIVE] ExecuteThread: '3' for queue: 'server' :Service
-[2015-02-23 01:20:78.75] INFO 2015-02-23 01:20:78,75:SQL :[ACTIVE] ExecuteThread: '3' for queue: 'server' : Home

@@ -1,9 +1,0 @@
-[2015-02-23 01:20:78.43] TIMER 2015-02-23 01:20:78,43:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' :Service
-[2015-02-23 01:20:78.45] INFO 2015-02-23 01:20:78.45:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Home
-[2015-02-23 01:20:78.67] SQL 2015-02-23 01:20:78,67:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.68] SQL 2015-02-23 01:20:78,68:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.71] SQL 2015-02-23 01:20:78,71:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.75] INFO 2015-02-23 01:20:78,75:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Home
-[2015-02-23 01:20:78.57] SQL 2015-02-23 01:20:78,57:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.65] SQL 2015-02-23 01:20:78,65:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.47] INFO 2015-02-23 01:20:78.47:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Home

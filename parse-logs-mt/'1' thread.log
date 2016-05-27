@@ -1,3 +1,0 @@
-[2015-02-23 01:20:78.44] SQL 2015-02-23 01:20:78,44:SQL :[ACTIVE] ExecuteThread: '1' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
-[2015-02-23 01:20:78.58] SQL 2015-02-23 01:20:78,58:SQL :[ACTIVE] ExecuteThread: '1' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL3 [abcd]:Home
-[2015-02-23 01:20:78.68] TIMER 2015-02-23 01:20:78,68:SQL :[ACTIVE] ExecuteThread: '1' for queue: 'server' :Service
