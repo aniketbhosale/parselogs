@@ -1,0 +1,4 @@
+[2015-02-23 01:20:78.75] INFO 2015-02-23 01:20:78,75:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Home
+[2015-02-23 01:20:78.57] SQL 2015-02-23 01:20:78,57:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
+[2015-02-23 01:20:78.65] SQL 2015-02-23 01:20:78,65:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Service1 : sql [statement - SELECT * FROM DUAL [abcd]:Home
+[2015-02-23 01:20:78.47] INFO 2015-02-23 01:20:78.47:SQL :[ACTIVE] ExecuteThread: '0' for queue: 'server' : Home
