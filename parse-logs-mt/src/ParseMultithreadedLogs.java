@@ -13,7 +13,7 @@ import java.util.List;
 public class ParseMultithreadedLogs {
 
 	public static void main(String[] args) {
-		List<HashMap<String, String>> listMap = new ArrayList<>();
+		List<HashMap<String, String>> listMap = new ArrayList<HashMap<String, String>>();
 		for (String arg : args) {
 			HashMap<String,String> returnMap = returnMapFromFile(arg);
 			listMap.add(returnMap);
@@ -27,7 +27,7 @@ public class ParseMultithreadedLogs {
 			BufferedReader br = new BufferedReader(new InputStreamReader(
 					fstream));
 			String strLine = null;
-			HashMap<String, String> map = new HashMap<>();
+			HashMap<String, String> map = new HashMap<String, String>();
 			/* read log line by line */
 			while ((strLine = br.readLine()) != null) {
 				/* parse strLine to obtain what you want */
