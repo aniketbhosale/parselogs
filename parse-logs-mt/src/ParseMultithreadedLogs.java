@@ -15,7 +15,7 @@ public class ParseMultithreadedLogs {
 	public static void main(String[] args) {
 		List<HashMap<String, String>> listMap = new ArrayList<HashMap<String, String>>();
 		for (String arg : args) {
-			HashMap<String,String> returnMap = returnMapFromFile(arg);
+			HashMap<String, String> returnMap = returnMapFromFile(arg);
 			listMap.add(returnMap);
 		}
 		writeToFileFromMap(listMap);
@@ -28,11 +28,18 @@ public class ParseMultithreadedLogs {
 					fstream));
 			String strLine = null;
 			HashMap<String, String> map = new HashMap<String, String>();
+			String prevThread = null;
 			/* read log line by line */
 			while ((strLine = br.readLine()) != null) {
 				/* parse strLine to obtain what you want */
-				String thread = strLine.substring(
-						strLine.indexOf("Thread:") + 8, strLine.indexOf("for"));
+				String thread = null;
+				if (strLine.contains("ExecuteThread")) {
+					thread = strLine.substring(strLine.indexOf("Thread:") + 8,strLine.indexOf("for"));
+					prevThread = thread;
+				} else {
+					thread = prevThread;
+					strLine = map.get(thread) + "\n" + strLine;
+				}
 				if (map.containsKey(thread)) {
 					String prevLog = map.get(thread);
 					prevLog = prevLog + "\n" + strLine;
@@ -74,10 +81,9 @@ public class ParseMultithreadedLogs {
 					// if file doesnt exists, then create it
 					if (!file.exists()) {
 						file.createNewFile();
-					}else{
+					} else {
 						value = "\n" + value;
 					}
-					
 
 					FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
 					BufferedWriter bw = new BufferedWriter(fw);
